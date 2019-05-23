@@ -1,0 +1,7 @@
+<nav><h1><%= link_to 'Welcome to Mister Cocktail', cocktails_path %></h1></nav>
+
+<h2>Add a Cocktail!</h2>
+
+<%= render 'form', cocktail: @cocktail %>
+
+<p><%= link_to "Go Back", cocktails_path %></p>
